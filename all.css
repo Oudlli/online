@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+}
+h1{
+    color: rgb(1, 206, 35);
+    text-align: center;
+}
+.contents{
+    padding: 10px;
+    margin: 10px;
+}
+.contents p{
+    font-family: 'Harmattan', sans-serif;
+    font-size: 20px;
+    list-style: square;
+}
+.contents li{
+    font-size: 19px;
+    font-family: 'Harmattan', sans-serif;
+    list-style: square;
+}
+span{
+    color: rgb(221, 0, 0);
+}
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.image-container img {
+    max-width: 100%;
+    max-height: 100%;
+}
+.colombia{
+    color: rgb(221, 0, 0);
+    text-align: center;
+}
+hr {
+    margin: 20px auto;
+    border: none;
+    border-top: 2px solid #00ff2a;
+    width: 50%;
+}
